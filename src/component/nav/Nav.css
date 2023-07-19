@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9c74f;
+  height: 80px;
+  padding: 0 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cart-button {
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #f94144;
+  border: none;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 8px rgba(249, 65, 76, 0.2);
+}
+
+.cart-button:hover {
+  background-color: #f3722c;
+}
+
+.cart-button:active {
+  transform: scale(0.95);
+}
+
+.shop-name {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
